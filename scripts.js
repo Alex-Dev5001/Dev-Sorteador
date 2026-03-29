@@ -8,3 +8,7 @@ const resultElement = document.querySelector(".result");
 console.log(resultElement.value)
 const buttonSort = document.querySelector("button");
 buttonSort.addEventListener("click", drawNumbers);
+
+const larguraJanela = window.innerWidth;
+const alturaJanela = window.innerHeight;
+console.log(larguraJanela, alturaJanela);
